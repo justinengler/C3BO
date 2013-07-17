@@ -1,0 +1,12 @@
+c3bo.cpp
+-I ../../SimpleIDE/Learn/Simple Libraries/Utility/libsimpletools
+-L ../../SimpleIDE/Learn/Simple Libraries/Utility/libsimpletools
+>compiler=C++
+>memtype=cmm main ram compact
+>optimize=-Os
+>-m32bit-doubles
+>-fno-exceptions
+>-fno-rtti
+>-ltiny
+>linker::-lsimpletools
+>BOARD::ACTIVITYBOARD
